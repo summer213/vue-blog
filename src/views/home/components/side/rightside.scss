@@ -1,0 +1,18 @@
+.article-list{
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            // border-bottom: 1px solid #c5c5c5;
+            padding: 10px 0;
+        }
+    }
+}
+.catalog{
+    .title{
+        font-size: 18px;
+        padding: 10px 20px;
+        border-bottom: 2px solid #989898;
+        margin: 20px 0;
+    }
+}

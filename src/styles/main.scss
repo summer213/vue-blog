@@ -1,0 +1,50 @@
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+html{
+    background: #f3f3f3;
+}
+
+.el-header{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #d8dce5;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);
+    z-index: 10000;
+    line-height: 60px;
+}
+.el-main{
+    min-width: 1300px;
+    // max-width: 1920px;
+    margin: 40px 150px;
+}
+@media screen and (max-width:1600px){
+    .el-main{
+        margin: 40px auto;
+    }
+}
+@media screen and (min-width:1600px){
+    .el-main{
+        margin: 40px 150px;
+    }
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 945821 */
+    src: url('//at.alicdn.com/t/font_945821_z9b9jetwyt.eot');
+    src: url('//at.alicdn.com/t/font_945821_z9b9jetwyt.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_945821_z9b9jetwyt.woff') format('woff'),
+    url('//at.alicdn.com/t/font_945821_z9b9jetwyt.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_945821_z9b9jetwyt.svg#iconfont') format('svg');
+  }
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

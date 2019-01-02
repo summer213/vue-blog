@@ -1,0 +1,19 @@
+.title{
+    .tag{
+        font-size: 25px;
+        color: #409EFF;
+    }
+}
+.list{
+    .item {
+        margin-top: 20px;
+        border-radius: 5px;
+        background: #fff;
+        padding: 20px;
+        .item-title{
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+    }
+}
