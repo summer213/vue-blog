@@ -77,13 +77,13 @@ export const constantRouterMap = [
             path: 'articleList',
             component: () => import('@/views/home/articleList/article'),
             name: 'articleList',
-            meta: { title: '文章列表', icon: 'dashboard', noCache: true },
+            meta: { title: '文章列表', icon: 'dashboard', noCache: true }
           },
           {
             path: 'tag',
             component: () => import('@/views/home/tagArticle/tag'),
             name: 'tag',
-            meta: { title: '文章列表', icon: 'dashboard', noCache: true },
+            meta: { title: '文章列表', icon: 'dashboard', noCache: true }
           }
         ]
       },
@@ -95,8 +95,8 @@ export const constantRouterMap = [
       },
       {
         path: 'editArticle',
-        component: () => import('@/views/components-demo/markdown'),
-        name: 'MarkdownEdit',
+        component: () => import('@/views/editArticle/editArticle.vue'),
+        name: 'editArticle',
         meta: { title: 'test', icon: 'dashboard', noCache: true }
       }
     ]
